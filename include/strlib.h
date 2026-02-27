@@ -12,6 +12,6 @@ typedef struct string
 
 string_t string_new();
 string_t string_from(char *cstr);
-string_t string_free(string_t *str);
+void string_free(string_t *str);
 
 #endif
